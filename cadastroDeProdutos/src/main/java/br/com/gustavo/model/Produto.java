@@ -16,6 +16,13 @@ public class Produto {
 	private int quantidade;
 	private double preco;
 	
+	
+	
+	public Produto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	//* Alt + shift + s = GGS generete gatters and setrers  ai seleciono todo//
 	// Na sequencia GCUF Generate constructor using fields desabilito o Id e gero.//
 	public Produto(String nomeProduto, int quantidade, double preco) {
